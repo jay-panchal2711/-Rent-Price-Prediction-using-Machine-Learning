@@ -50,20 +50,37 @@ Selected the configuration with the best average R² and lowest MSE
 📊 Model Performance Comparison
 Model	R²	MSE
 Linear Regression	0.414	765,815
+
 Lasso Regression	0.481	693,229
+
 Ridge Regression	0.457	717,482
+
 ElasticNet Regression	0.485	686,536
+
 KNN Regression	0.348	802,094
+
 Random Forest Regression	0.606	541,277
+
 Decision Tree Regression	0.454	696,680
+
+
 🔧 Model Tuning Results (Random Forest)
+
 n_estimators	R² Mean	R² Std	MSE Mean
+
 50	0.606	0.175	541,277
+
 100	0.612	0.175	534,691
+
 200	0.615	0.176	531,715
+
 300	0.615	0.176	531,436
+
 400	0.615	0.177	531,565
+
 500	0.616	0.177	530,465
+
+
 ⚡ Key Insights
 
 Random Forest outperformed all other models with an R² of 0.616 and the lowest MSE.
